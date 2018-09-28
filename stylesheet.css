@@ -1,0 +1,245 @@
+@import url("reset.css");
+* {
+  min-height: 0;
+  min-width: 0; }
+
+body {
+  margin: 0;
+  font-family: 'Anton', sans-serif;
+  font-size: 12px;
+  color: #373737; }
+
+p {
+  letter-spacing: 2px;
+  line-height: 24px;
+  color: #373737; }
+
+a {
+  text-decoration: none; }
+
+ul {
+  list-style: none; }
+
+h2 {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 100px; }
+
+.wrapper {
+  width: 980px;
+  margin: 0 auto; }
+
+.clearfix:after {
+  clear: both;
+  content: '';
+  display: block; }
+
+header {
+  width: 100%;
+  padding-top: 30px;
+  background-image: url("pics/bg-top.png");
+  background-size: cover;
+  letter-spacing: 10px;
+  color: #FFFFFF; }
+  header a {
+    color: #FFF; }
+  header .header-menu {
+    margin: 0 auto;
+    width: 730px;
+    font-size: 16px;
+    letter-spacing: 4px;
+    display: flex;
+    justify-content: space-between; }
+    header .header-menu .menu {
+      padding-top: 30px; }
+      header .header-menu .menu a:hover {
+        text-decoration: none;
+        color: #b16857; }
+  header .header-text {
+    padding: 240px 0;
+    text-align: center; }
+    header .header-text h2 {
+      font-size: 36px;
+      letter-spacing: 6px;
+      margin-bottom: 10px; }
+    header .header-text p {
+      font-size: 16px;
+      letter-spacing: 3px;
+      margin-bottom: 30px;
+      color: #FFFFFF; }
+    header .header-text .btn {
+      background: #16a085;
+      border-radius: 5px;
+      font-size: 12px;
+      letter-spacing: 3px;
+      padding: 18px 45px;
+      text-align: center; }
+      header .header-text .btn:hover {
+        color: #FFFFFF;
+        opacity: 0.9; }
+
+.message {
+  background-color: #f5f6f7;
+  width: 100%;
+  padding: 90px 0 200px;
+  overflow: hidden; }
+  .message .message-wrapper {
+    position: relative; }
+    .message .message-wrapper .message-content h3 {
+      font-size: 18px;
+      letter-spacing: 4px;
+      color: #16a085;
+      padding-top: 20px;
+      margin-bottom: 45px; }
+    .message .message-wrapper .message-content p {
+      width: 50%; }
+    .message .message-wrapper .message-pic {
+      position: absolute;
+      top: 0;
+      right: 0; }
+
+.design {
+  width: 100%;
+  overflow: hidden; }
+  .design .design-wrapper {
+    padding: 142px 0;
+    position: relative; }
+    .design .design-wrapper .design-pic {
+      position: absolute;
+      top: 142px;
+      left: 0; }
+    .design .design-wrapper .design-content {
+      margin-right: 55px;
+      float: right; }
+      .design .design-wrapper .design-content h3 {
+        font-size: 18px;
+        letter-spacing: 4px;
+        color: #16a085;
+        margin-bottom: 40px; }
+
+.community {
+  background-color: #f5f6f7;
+  width: 100%; }
+  .community .community-wrapper {
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .community .community-wrapper .icon-community {
+      text-align: center;
+      width: 200px; }
+      .community .community-wrapper .icon-community p {
+        padding-top: 30px;
+        font-size: 16px;
+        letter-spacing: 3px; }
+    .community .community-wrapper .slide-show {
+      width: 755px;
+      position: relative; }
+      .community .community-wrapper .slide-show .fas {
+        font-size: 25px; }
+        .community .community-wrapper .slide-show .fas:hover {
+          cursor: pointer;
+          opacity: 0.7; }
+      .community .community-wrapper .slide-show .fa-chevron-left {
+        position: absolute;
+        top: -30px;
+        right: 30px; }
+      .community .community-wrapper .slide-show .fa-chevron-right {
+        position: absolute;
+        top: -30px;
+        right: -3px; }
+      .community .community-wrapper .slide-show .slick-item {
+        padding-right: 20px; }
+
+.getstarted {
+  width: 100%;
+  background-image: url("pics/bg-camera.png");
+  background-size: cover; }
+  .getstarted .getstarted-wrapper {
+    padding: 350px 0;
+    text-align: center; }
+    .getstarted .getstarted-wrapper h3 {
+      font-size: 24px;
+      letter-spacing: 6px;
+      color: #FFFFFF;
+      margin-bottom: 30px; }
+    .getstarted .getstarted-wrapper .form-getstarted {
+      height: 60px;
+      display: flex;
+      justify-content: center;
+      font-family: Arial, Helvetica, sans-serif; }
+      .getstarted .getstarted-wrapper .form-getstarted .email {
+        width: 280px;
+        background: #FFFFFF;
+        border-radius: 5px 0 0 5px;
+        padding-left: 20px;
+        font-size: 16px; }
+        .getstarted .getstarted-wrapper .form-getstarted .email :placeholder-shown {
+          font-family: 'Anton', sans-serif;
+          letter-spacing: 4px; }
+      .getstarted .getstarted-wrapper .form-getstarted .fas {
+        width: 64px;
+        background: #16a085;
+        font-size: 20px;
+        color: #FFFFFF;
+        border-radius: 0 5px 5px 0; }
+        .getstarted .getstarted-wrapper .form-getstarted .fas:hover {
+          color: #FFFFFF;
+          opacity: 0.9; }
+
+.download {
+  width: 100%;
+  background-color: #f5f6f7; }
+  .download .download-wrapper {
+    padding: 130px 0; }
+    .download .download-wrapper h3 {
+      font-size: 20px;
+      letter-spacing: 6px;
+      color: #373737;
+      margin-bottom: 76px;
+      text-align: center; }
+    .download .download-wrapper .stores {
+      margin: 0 auto;
+      width: 64%;
+      display: flex;
+      justify-content: space-between; }
+      .download .download-wrapper .stores .store {
+        height: 56px;
+        display: flex;
+        justify-content: center; }
+        .download .download-wrapper .stores .store:hover {
+          color: #FFFFFF;
+          text-decoration: none;
+          opacity: 0.8; }
+        .download .download-wrapper .stores .store p {
+          font-size: 18px;
+          line-height: 56px;
+          width: 240px;
+          color: #FFFFFF;
+          padding-left: 25px;
+          letter-spacing: 4px;
+          background-color: #1abc9c;
+          border-radius: 5px 0 0 5px; }
+        .download .download-wrapper .stores .store i {
+          display: inline-block;
+          font-size: 25px;
+          line-height: 56px;
+          width: 56px;
+          text-align: center;
+          color: #FFFFFF;
+          background-color: #16a085;
+          border-radius: 0 5px 5px 0; }
+
+footer {
+  width: 100%;
+  text-align: center;
+  padding: 20px 0; }
+  footer .footer-icon {
+    margin-bottom: 16px; }
+  footer .footer-text {
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 2px; }
+
+/*# sourceMappingURL=stylesheet.css.map */
